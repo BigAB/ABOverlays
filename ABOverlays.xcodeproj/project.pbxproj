@@ -47,7 +47,6 @@
 		90379B7C178DCB90009FFE46 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		90379B84178DCB90009FFE46 /* ABOverlaysTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABOverlaysTests-Info.plist"; sourceTree = "<group>"; };
 		90379B86178DCB90009FFE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		90379B88178DCB90009FFE46 /* ABOverlaysTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABOverlaysTests.h; sourceTree = "<group>"; };
 		90379B89178DCB90009FFE46 /* ABOverlaysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABOverlaysTests.m; sourceTree = "<group>"; };
 		90379B94178DCCC2009FFE46 /* ABAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABAppDelegate.h; sourceTree = "<group>"; };
 		90379B95178DCCC2009FFE46 /* ABAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABAppDelegate.m; sourceTree = "<group>"; };
@@ -129,7 +128,6 @@
 		90379B82178DCB90009FFE46 /* ABOverlaysTests */ = {
 			isa = PBXGroup;
 			children = (
-				90379B88178DCB90009FFE46 /* ABOverlaysTests.h */,
 				90379B89178DCB90009FFE46 /* ABOverlaysTests.m */,
 				90379B83178DCB90009FFE46 /* Supporting Files */,
 			);

@@ -10,4 +10,13 @@
 
 @interface ABOverlay : NSObject
 
+@property (nonatomic, strong) UIView *view;
+@property (nonatomic, assign) BOOL modal;
+
++ (ABOverlay *)overlayWithView:(UIView *)view;
++ (ABOverlay *)overlayWithView:(UIView *)view modal:(BOOL)isModal;
+
+- (id)initWithView:(UIView *)view;
+- (id)initWithView:(UIView *)view modal:(BOOL)isModal;
+
 @end
