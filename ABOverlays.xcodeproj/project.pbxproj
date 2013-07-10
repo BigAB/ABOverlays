@@ -21,6 +21,7 @@
 		90379BA6178DCCC2009FFE46 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90379B9B178DCCC2009FFE46 /* Default.png */; };
 		90379BA7178DCCC2009FFE46 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90379B9C178DCCC2009FFE46 /* Default@2x.png */; };
 		90379BAA178DCCC2009FFE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90379BA1178DCCC2009FFE46 /* main.m */; };
+		904D2F6D178DE08100F998C8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 904D2F6C178DE08100F998C8 /* README.md */; };
 		90795F35178DD5B300A356EE /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90795F34178DD5B300A356EE /* ABViewController.m */; };
 		90795F37178DD5BC00A356EE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90795F36178DD5BC00A356EE /* MainStoryboard.storyboard */; };
 		90795F3A178DD6A100A356EE /* ABOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 90795F39178DD6A100A356EE /* ABOverlay.m */; };
@@ -57,6 +58,7 @@
 		90379B9C178DCCC2009FFE46 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
 		90379B9E178DCCC2009FFE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90379BA1178DCCC2009FFE46 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		904D2F6C178DE08100F998C8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		90795F33178DD5B300A356EE /* ABViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABViewController.h; sourceTree = "<group>"; };
 		90795F34178DD5B300A356EE /* ABViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABViewController.m; sourceTree = "<group>"; };
 		90795F36178DD5BC00A356EE /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 		90379B93178DCCC2009FFE46 /* ABOverlays Demo */ = {
 			isa = PBXGroup;
 			children = (
+				904D2F6C178DE08100F998C8 /* README.md */,
 				90379B94178DCCC2009FFE46 /* ABAppDelegate.h */,
 				90379B95178DCCC2009FFE46 /* ABAppDelegate.m */,
 				90795F32178DD52600A356EE /* Supporting Files */,
@@ -280,6 +283,7 @@
 				90379BA6178DCCC2009FFE46 /* Default.png in Resources */,
 				90379BA7178DCCC2009FFE46 /* Default@2x.png in Resources */,
 				90795F37178DD5BC00A356EE /* MainStoryboard.storyboard in Resources */,
+				904D2F6D178DE08100F998C8 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
