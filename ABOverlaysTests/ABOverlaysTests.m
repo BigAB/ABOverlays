@@ -6,27 +6,25 @@
 //  Copyright (c) 2013 Adam Barrett. All rights reserved.
 //
 
-#import "ABOverlaysTests.h"
+#import "Kiwi.h"
+#import "ABOverlay.h"
 
-@implementation ABOverlaysTests
+SPEC_BEGIN(ABOverlaysSpecs)
 
-- (void)setUp
-{
-    [super setUp];
+describe(@"ABOverlay", ^{
     
-    // Set-up code here.
-}
-
-- (void)tearDown
-{
-    // Tear-down code here.
+    describe(@"Initialization", ^{
+        
+        it(@"should be all initialized and such", ^{
+            
+            ABOverlay *overlay = [ABOverlay new];
+            
+            [[overlay shouldNot] beNil];
+            
+        });
+        
+    });
     
-    [super tearDown];
-}
+});
 
-- (void)testExample
-{
-    STFail(@"Unit tests are not implemented yet in ABOverlaysTests");
-}
-
-@end
+SPEC_END

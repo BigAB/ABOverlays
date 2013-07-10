@@ -7,22 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1A2FDEFE126144C28E298729 /* libPods-ABOverlaysTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A01D79F8F6484D899F90ECCB /* libPods-ABOverlaysTests.a */; };
 		90379B59178DCB90009FFE46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B58178DCB90009FFE46 /* UIKit.framework */; };
 		90379B5B178DCB90009FFE46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B5A178DCB90009FFE46 /* Foundation.framework */; };
 		90379B5D178DCB90009FFE46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B5C178DCB90009FFE46 /* CoreGraphics.framework */; };
-		90379B63178DCB90009FFE46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90379B61178DCB90009FFE46 /* InfoPlist.strings */; };
-		90379B65178DCB90009FFE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90379B64178DCB90009FFE46 /* main.m */; };
-		90379B69178DCB90009FFE46 /* ABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90379B68178DCB90009FFE46 /* ABAppDelegate.m */; };
-		90379B6B178DCB90009FFE46 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90379B6A178DCB90009FFE46 /* Default.png */; };
-		90379B6D178DCB90009FFE46 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90379B6C178DCB90009FFE46 /* Default@2x.png */; };
-		90379B6F178DCB90009FFE46 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90379B6E178DCB90009FFE46 /* Default-568h@2x.png */; };
-		90379B72178DCB90009FFE46 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90379B70178DCB90009FFE46 /* MainStoryboard.storyboard */; };
-		90379B75178DCB90009FFE46 /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90379B74178DCB90009FFE46 /* ABViewController.m */; };
 		90379B7D178DCB90009FFE46 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B7C178DCB90009FFE46 /* SenTestingKit.framework */; };
 		90379B7E178DCB90009FFE46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B58178DCB90009FFE46 /* UIKit.framework */; };
 		90379B7F178DCB90009FFE46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B5A178DCB90009FFE46 /* Foundation.framework */; };
 		90379B87178DCB90009FFE46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90379B85178DCB90009FFE46 /* InfoPlist.strings */; };
 		90379B8A178DCB90009FFE46 /* ABOverlaysTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 90379B89178DCB90009FFE46 /* ABOverlaysTests.m */; };
+		90379BA2178DCCC2009FFE46 /* ABAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 90379B95178DCCC2009FFE46 /* ABAppDelegate.m */; };
+		90379BA5178DCCC2009FFE46 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90379B9A178DCCC2009FFE46 /* Default-568h@2x.png */; };
+		90379BA6178DCCC2009FFE46 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 90379B9B178DCCC2009FFE46 /* Default.png */; };
+		90379BA7178DCCC2009FFE46 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90379B9C178DCCC2009FFE46 /* Default@2x.png */; };
+		90379BAA178DCCC2009FFE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90379BA1178DCCC2009FFE46 /* main.m */; };
+		90795F35178DD5B300A356EE /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90795F34178DD5B300A356EE /* ABViewController.m */; };
+		90795F37178DD5BC00A356EE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90795F36178DD5BC00A356EE /* MainStoryboard.storyboard */; };
+		90795F3A178DD6A100A356EE /* ABOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 90795F39178DD6A100A356EE /* ABOverlay.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,28 +37,32 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D8FF5639ECB44EFB1F2F73F /* Pods/Pods-ABOverlaysTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods/Pods-ABOverlaysTests.xcconfig"; sourceTree = SOURCE_ROOT; };
 		90379B55178DCB90009FFE46 /* ABOverlays.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ABOverlays.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		90379B58178DCB90009FFE46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90379B5A178DCB90009FFE46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90379B5C178DCB90009FFE46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		90379B60178DCB90009FFE46 /* ABOverlays-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABOverlays-Info.plist"; sourceTree = "<group>"; };
-		90379B62178DCB90009FFE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		90379B64178DCB90009FFE46 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		90379B66178DCB90009FFE46 /* ABOverlays-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ABOverlays-Prefix.pch"; sourceTree = "<group>"; };
-		90379B67178DCB90009FFE46 /* ABAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABAppDelegate.h; sourceTree = "<group>"; };
-		90379B68178DCB90009FFE46 /* ABAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABAppDelegate.m; sourceTree = "<group>"; };
-		90379B6A178DCB90009FFE46 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		90379B6C178DCB90009FFE46 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		90379B6E178DCB90009FFE46 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		90379B71178DCB90009FFE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		90379B73178DCB90009FFE46 /* ABViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABViewController.h; sourceTree = "<group>"; };
-		90379B74178DCB90009FFE46 /* ABViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABViewController.m; sourceTree = "<group>"; };
 		90379B7B178DCB90009FFE46 /* ABOverlaysTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABOverlaysTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90379B7C178DCB90009FFE46 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		90379B84178DCB90009FFE46 /* ABOverlaysTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABOverlaysTests-Info.plist"; sourceTree = "<group>"; };
 		90379B86178DCB90009FFE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90379B88178DCB90009FFE46 /* ABOverlaysTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ABOverlaysTests.h; sourceTree = "<group>"; };
 		90379B89178DCB90009FFE46 /* ABOverlaysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABOverlaysTests.m; sourceTree = "<group>"; };
+		90379B94178DCCC2009FFE46 /* ABAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABAppDelegate.h; sourceTree = "<group>"; };
+		90379B95178DCCC2009FFE46 /* ABAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABAppDelegate.m; sourceTree = "<group>"; };
+		90379B96178DCCC2009FFE46 /* ABOverlays-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "ABOverlays-Info.plist"; sourceTree = "<group>"; };
+		90379B97178DCCC2009FFE46 /* ABOverlays-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ABOverlays-Prefix.pch"; sourceTree = "<group>"; };
+		90379B9A178DCCC2009FFE46 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default-568h@2x.png"; path = "../Default-568h@2x.png"; sourceTree = "<group>"; };
+		90379B9B178DCCC2009FFE46 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = ../Default.png; sourceTree = "<group>"; };
+		90379B9C178DCCC2009FFE46 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Default@2x.png"; path = "../Default@2x.png"; sourceTree = "<group>"; };
+		90379B9E178DCCC2009FFE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		90379BA1178DCCC2009FFE46 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		90795F33178DD5B300A356EE /* ABViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABViewController.h; sourceTree = "<group>"; };
+		90795F34178DD5B300A356EE /* ABViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABViewController.m; sourceTree = "<group>"; };
+		90795F36178DD5BC00A356EE /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
+		90795F38178DD6A100A356EE /* ABOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABOverlay.h; sourceTree = "<group>"; };
+		90795F39178DD6A100A356EE /* ABOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABOverlay.m; sourceTree = "<group>"; };
+		A01D79F8F6484D899F90ECCB /* libPods-ABOverlaysTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABOverlaysTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +83,7 @@
 				90379B7D178DCB90009FFE46 /* SenTestingKit.framework in Frameworks */,
 				90379B7E178DCB90009FFE46 /* UIKit.framework in Frameworks */,
 				90379B7F178DCB90009FFE46 /* Foundation.framework in Frameworks */,
+				1A2FDEFE126144C28E298729 /* libPods-ABOverlaysTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,10 +93,12 @@
 		90379B4C178DCB90009FFE46 = {
 			isa = PBXGroup;
 			children = (
-				90379B5E178DCB90009FFE46 /* ABOverlays */,
+				90379BAB178DCD54009FFE46 /* ABOverlays */,
+				90379B93178DCCC2009FFE46 /* ABOverlays Demo */,
 				90379B82178DCB90009FFE46 /* ABOverlaysTests */,
 				90379B57178DCB90009FFE46 /* Frameworks */,
 				90379B56178DCB90009FFE46 /* Products */,
+				0D8FF5639ECB44EFB1F2F73F /* Pods/Pods-ABOverlaysTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -110,35 +118,9 @@
 				90379B5A178DCB90009FFE46 /* Foundation.framework */,
 				90379B5C178DCB90009FFE46 /* CoreGraphics.framework */,
 				90379B7C178DCB90009FFE46 /* SenTestingKit.framework */,
+				A01D79F8F6484D899F90ECCB /* libPods-ABOverlaysTests.a */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		90379B5E178DCB90009FFE46 /* ABOverlays */ = {
-			isa = PBXGroup;
-			children = (
-				90379B67178DCB90009FFE46 /* ABAppDelegate.h */,
-				90379B68178DCB90009FFE46 /* ABAppDelegate.m */,
-				90379B70178DCB90009FFE46 /* MainStoryboard.storyboard */,
-				90379B73178DCB90009FFE46 /* ABViewController.h */,
-				90379B74178DCB90009FFE46 /* ABViewController.m */,
-				90379B5F178DCB90009FFE46 /* Supporting Files */,
-			);
-			path = ABOverlays;
-			sourceTree = "<group>";
-		};
-		90379B5F178DCB90009FFE46 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				90379B60178DCB90009FFE46 /* ABOverlays-Info.plist */,
-				90379B61178DCB90009FFE46 /* InfoPlist.strings */,
-				90379B64178DCB90009FFE46 /* main.m */,
-				90379B66178DCB90009FFE46 /* ABOverlays-Prefix.pch */,
-				90379B6A178DCB90009FFE46 /* Default.png */,
-				90379B6C178DCB90009FFE46 /* Default@2x.png */,
-				90379B6E178DCB90009FFE46 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		90379B82178DCB90009FFE46 /* ABOverlaysTests */ = {
@@ -156,6 +138,66 @@
 			children = (
 				90379B84178DCB90009FFE46 /* ABOverlaysTests-Info.plist */,
 				90379B85178DCB90009FFE46 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		90379B93178DCCC2009FFE46 /* ABOverlays Demo */ = {
+			isa = PBXGroup;
+			children = (
+				90379B94178DCCC2009FFE46 /* ABAppDelegate.h */,
+				90379B95178DCCC2009FFE46 /* ABAppDelegate.m */,
+				90795F32178DD52600A356EE /* Supporting Files */,
+				90795F30178DD50F00A356EE /* StoryBoards */,
+				90795F31178DD50F00A356EE /* View Controllers */,
+				90795F2F178DD4C400A356EE /* images */,
+			);
+			path = "ABOverlays Demo";
+			sourceTree = "<group>";
+		};
+		90379BAB178DCD54009FFE46 /* ABOverlays */ = {
+			isa = PBXGroup;
+			children = (
+				90795F38178DD6A100A356EE /* ABOverlay.h */,
+				90795F39178DD6A100A356EE /* ABOverlay.m */,
+			);
+			path = ABOverlays;
+			sourceTree = "<group>";
+		};
+		90795F2F178DD4C400A356EE /* images */ = {
+			isa = PBXGroup;
+			children = (
+				90379B9A178DCCC2009FFE46 /* Default-568h@2x.png */,
+				90379B9B178DCCC2009FFE46 /* Default.png */,
+				90379B9C178DCCC2009FFE46 /* Default@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		90795F30178DD50F00A356EE /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				90795F36178DD5BC00A356EE /* MainStoryboard.storyboard */,
+			);
+			path = StoryBoards;
+			sourceTree = "<group>";
+		};
+		90795F31178DD50F00A356EE /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				90795F33178DD5B300A356EE /* ABViewController.h */,
+				90795F34178DD5B300A356EE /* ABViewController.m */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		90795F32178DD52600A356EE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				90379BA1178DCCC2009FFE46 /* main.m */,
+				90379B97178DCCC2009FFE46 /* ABOverlays-Prefix.pch */,
+				90379B9D178DCCC2009FFE46 /* InfoPlist.strings */,
+				90379B96178DCCC2009FFE46 /* ABOverlays-Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -184,10 +226,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 90379B90178DCB90009FFE46 /* Build configuration list for PBXNativeTarget "ABOverlaysTests" */;
 			buildPhases = (
+				DA64458288C64BB09DE80EED /* Check Pods Manifest.lock */,
 				90379B76178DCB90009FFE46 /* Sources */,
 				90379B77178DCB90009FFE46 /* Frameworks */,
 				90379B78178DCB90009FFE46 /* Resources */,
 				90379B79178DCB90009FFE46 /* ShellScript */,
+				21253CFAA9A54EB8917E0FE9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -232,11 +276,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90379B63178DCB90009FFE46 /* InfoPlist.strings in Resources */,
-				90379B6B178DCB90009FFE46 /* Default.png in Resources */,
-				90379B6D178DCB90009FFE46 /* Default@2x.png in Resources */,
-				90379B6F178DCB90009FFE46 /* Default-568h@2x.png in Resources */,
-				90379B72178DCB90009FFE46 /* MainStoryboard.storyboard in Resources */,
+				90379BA5178DCCC2009FFE46 /* Default-568h@2x.png in Resources */,
+				90379BA6178DCCC2009FFE46 /* Default.png in Resources */,
+				90379BA7178DCCC2009FFE46 /* Default@2x.png in Resources */,
+				90795F37178DD5BC00A356EE /* MainStoryboard.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +294,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		21253CFAA9A54EB8917E0FE9 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-ABOverlaysTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		90379B79178DCB90009FFE46 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -264,6 +322,21 @@
 			shellPath = /bin/sh;
 			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
 		};
+		DA64458288C64BB09DE80EED /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -271,9 +344,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90379B65178DCB90009FFE46 /* main.m in Sources */,
-				90379B69178DCB90009FFE46 /* ABAppDelegate.m in Sources */,
-				90379B75178DCB90009FFE46 /* ABViewController.m in Sources */,
+				90379BA2178DCCC2009FFE46 /* ABAppDelegate.m in Sources */,
+				90379BAA178DCCC2009FFE46 /* main.m in Sources */,
+				90795F35178DD5B300A356EE /* ABViewController.m in Sources */,
+				90795F3A178DD6A100A356EE /* ABOverlay.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -296,26 +370,18 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		90379B61178DCB90009FFE46 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90379B62178DCB90009FFE46 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		90379B70178DCB90009FFE46 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				90379B71178DCB90009FFE46 /* en */,
-			);
-			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
 		90379B85178DCB90009FFE46 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				90379B86178DCB90009FFE46 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		90379B9D178DCCC2009FFE46 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				90379B9E178DCCC2009FFE46 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -348,7 +414,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -372,7 +438,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -383,8 +449,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ABOverlays/ABOverlays-Prefix.pch";
-				INFOPLIST_FILE = "ABOverlays/ABOverlays-Info.plist";
+				GCC_PREFIX_HEADER = "ABOverlays Demo/ABOverlays-Prefix.pch";
+				INFOPLIST_FILE = "ABOverlays Demo/ABOverlays-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -394,8 +460,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ABOverlays/ABOverlays-Prefix.pch";
-				INFOPLIST_FILE = "ABOverlays/ABOverlays-Info.plist";
+				GCC_PREFIX_HEADER = "ABOverlays Demo/ABOverlays-Prefix.pch";
+				INFOPLIST_FILE = "ABOverlays Demo/ABOverlays-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -403,6 +469,7 @@
 		};
 		90379B91178DCB90009FFE46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8FF5639ECB44EFB1F2F73F /* Pods/Pods-ABOverlaysTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ABOverlays.app/ABOverlays";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -410,7 +477,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ABOverlays/ABOverlays-Prefix.pch";
+				GCC_PREFIX_HEADER = "ABOverlays Demo/ABOverlays-Prefix.pch";
 				INFOPLIST_FILE = "ABOverlaysTests/ABOverlaysTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -420,6 +487,7 @@
 		};
 		90379B92178DCB90009FFE46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0D8FF5639ECB44EFB1F2F73F /* Pods/Pods-ABOverlaysTests.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ABOverlays.app/ABOverlays";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -427,7 +495,7 @@
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ABOverlays/ABOverlays-Prefix.pch";
+				GCC_PREFIX_HEADER = "ABOverlays Demo/ABOverlays-Prefix.pch";
 				INFOPLIST_FILE = "ABOverlaysTests/ABOverlaysTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
@@ -454,6 +522,7 @@
 				90379B8F178DCB90009FFE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90379B90178DCB90009FFE46 /* Build configuration list for PBXNativeTarget "ABOverlaysTests" */ = {
 			isa = XCConfigurationList;
@@ -462,6 +531,7 @@
 				90379B92178DCB90009FFE46 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
