@@ -7,16 +7,39 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <objc/runtime.h>
+#import "ABAppearingView.h"
 
-@interface ABOverlay : NSObject
+@interface ABOverlay : ABAppearingView
 
-@property (nonatomic, strong) UIView *view;
 @property (nonatomic, assign) BOOL modal;
+@property (nonatomic, strong) UIColor *modalBackgroundColor;
+@property (nonatomic, readonly) UIView *modalBackgroundView;
 
-+ (ABOverlay *)overlayWithView:(UIView *)view;
-+ (ABOverlay *)overlayWithView:(UIView *)view modal:(BOOL)isModal;
+@property (nonatomic, strong) UIViewController *storedViewController;
 
-- (id)initWithView:(UIView *)view;
-- (id)initWithView:(UIView *)view modal:(BOOL)isModal;
+@end
 
+
+// ---------------------------------------------------
+//  UIView+FindViewController.h
+//
+//  This Great Idea by Phil M
+//  http://stackoverflow.com/questions/1340434/get-to-uiviewcontroller-from-uiview-on-iphone
+// ---------------------------------------------------
+#pragma mark - UIView+FindViewController
+@interface UIView (FindUIViewController)
+- (UIViewController *) firstAvailableUIViewController;
+- (id) traverseResponderChainForUIViewController;
+@end
+
+// ---------------------------------------------------
+//  GhostWindow.h
+//
+//  Created by Adam Barrett on 13-05-23.
+//  http://bigab.mit-license.org/
+//  A window that can be invisible and touchless
+// ---------------------------------------------------
+@interface GhostWindow : UIWindow
+@property (nonatomic, assign) BOOL touchable;
 @end

@@ -1,0 +1,3 @@
+[submodule "ABOverlays/dependencies/Appearing-Views"]
+	path = ABOverlays/dependencies/Appearing-Views
+	url = git@github.com:BigAB/Appearing-Views.git

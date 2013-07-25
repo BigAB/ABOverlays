@@ -22,9 +22,20 @@
 		90379BA7178DCCC2009FFE46 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90379B9C178DCCC2009FFE46 /* Default@2x.png */; };
 		90379BAA178DCCC2009FFE46 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 90379BA1178DCCC2009FFE46 /* main.m */; };
 		904D2F6F178DE13700F998C8 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 904D2F6E178DE13700F998C8 /* README.md */; };
+		904D2F76178DEC5A00F998C8 /* ABAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D2F73178DEC5A00F998C8 /* ABAnimations.m */; };
+		904D2F77178DEC5A00F998C8 /* ABAppearingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D2F75178DEC5A00F998C8 /* ABAppearingView.m */; };
+		904D2F7D178DFDBC00F998C8 /* YIInnerShadowLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D2F7A178DFDBC00F998C8 /* YIInnerShadowLayer.m */; };
+		904D2F7E178DFDBC00F998C8 /* YIInnerShadowView.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D2F7C178DFDBC00F998C8 /* YIInnerShadowView.m */; };
+		904D2F80178DFDF100F998C8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 904D2F7F178DFDF100F998C8 /* QuartzCore.framework */; };
+		904D2FA0178F6E4600F998C8 /* ToastView.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D2F9F178F6E4600F998C8 /* ToastView.m */; };
+		904D2FA2178F6FA900F998C8 /* Alert-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 904D2FA1178F6FA900F998C8 /* Alert-Icon.png */; };
+		904D2FA5178F723B00F998C8 /* MyModalViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D2FA4178F723B00F998C8 /* MyModalViewController.m */; };
+		90771C0817948C65003E650C /* Drawer.m in Sources */ = {isa = PBXBuildFile; fileRef = 90771C0717948C65003E650C /* Drawer.m */; };
+		90771C0A1794916D003E650C /* happysun.png in Resources */ = {isa = PBXBuildFile; fileRef = 90771C091794916D003E650C /* happysun.png */; };
 		90795F35178DD5B300A356EE /* ABViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 90795F34178DD5B300A356EE /* ABViewController.m */; };
 		90795F37178DD5BC00A356EE /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 90795F36178DD5BC00A356EE /* MainStoryboard.storyboard */; };
 		90795F3A178DD6A100A356EE /* ABOverlay.m in Sources */ = {isa = PBXBuildFile; fileRef = 90795F39178DD6A100A356EE /* ABOverlay.m */; };
+		90FAABF5179054B500399E39 /* can.png in Resources */ = {isa = PBXBuildFile; fileRef = 90FAABF4179054B500399E39 /* can.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,11 +69,29 @@
 		90379B9E178DCCC2009FFE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90379BA1178DCCC2009FFE46 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		904D2F6E178DE13700F998C8 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		904D2F72178DEC5A00F998C8 /* ABAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABAnimations.h; path = "Appearing-Views/Appearing Views/ABAnimations.h"; sourceTree = "<group>"; };
+		904D2F73178DEC5A00F998C8 /* ABAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABAnimations.m; path = "Appearing-Views/Appearing Views/ABAnimations.m"; sourceTree = "<group>"; };
+		904D2F74178DEC5A00F998C8 /* ABAppearingView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ABAppearingView.h; path = "Appearing-Views/Appearing Views/ABAppearingView.h"; sourceTree = "<group>"; };
+		904D2F75178DEC5A00F998C8 /* ABAppearingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ABAppearingView.m; path = "Appearing-Views/Appearing Views/ABAppearingView.m"; sourceTree = "<group>"; };
+		904D2F79178DFDBC00F998C8 /* YIInnerShadowLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIInnerShadowLayer.h; sourceTree = "<group>"; };
+		904D2F7A178DFDBC00F998C8 /* YIInnerShadowLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YIInnerShadowLayer.m; sourceTree = "<group>"; };
+		904D2F7B178DFDBC00F998C8 /* YIInnerShadowView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YIInnerShadowView.h; sourceTree = "<group>"; };
+		904D2F7C178DFDBC00F998C8 /* YIInnerShadowView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YIInnerShadowView.m; sourceTree = "<group>"; };
+		904D2F7F178DFDF100F998C8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		904D2F9E178F6E4600F998C8 /* ToastView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ToastView.h; sourceTree = "<group>"; };
+		904D2F9F178F6E4600F998C8 /* ToastView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ToastView.m; sourceTree = "<group>"; };
+		904D2FA1178F6FA900F998C8 /* Alert-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Alert-Icon.png"; sourceTree = "<group>"; };
+		904D2FA3178F723B00F998C8 /* MyModalViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyModalViewController.h; sourceTree = "<group>"; };
+		904D2FA4178F723B00F998C8 /* MyModalViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyModalViewController.m; sourceTree = "<group>"; };
+		90771C0617948C65003E650C /* Drawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Drawer.h; sourceTree = "<group>"; };
+		90771C0717948C65003E650C /* Drawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Drawer.m; sourceTree = "<group>"; };
+		90771C091794916D003E650C /* happysun.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happysun.png; sourceTree = "<group>"; };
 		90795F33178DD5B300A356EE /* ABViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABViewController.h; sourceTree = "<group>"; };
 		90795F34178DD5B300A356EE /* ABViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABViewController.m; sourceTree = "<group>"; };
 		90795F36178DD5BC00A356EE /* MainStoryboard.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = MainStoryboard.storyboard; sourceTree = "<group>"; };
 		90795F38178DD6A100A356EE /* ABOverlay.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABOverlay.h; sourceTree = "<group>"; };
 		90795F39178DD6A100A356EE /* ABOverlay.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABOverlay.m; sourceTree = "<group>"; };
+		90FAABF4179054B500399E39 /* can.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = can.png; sourceTree = "<group>"; };
 		A01D79F8F6484D899F90ECCB /* libPods-ABOverlaysTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ABOverlaysTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -71,6 +100,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				904D2F80178DFDF100F998C8 /* QuartzCore.framework in Frameworks */,
 				90379B59178DCB90009FFE46 /* UIKit.framework in Frameworks */,
 				90379B5B178DCB90009FFE46 /* Foundation.framework in Frameworks */,
 				90379B5D178DCB90009FFE46 /* CoreGraphics.framework in Frameworks */,
@@ -116,6 +146,7 @@
 		90379B57178DCB90009FFE46 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				904D2F7F178DFDF100F998C8 /* QuartzCore.framework */,
 				90379B58178DCB90009FFE46 /* UIKit.framework */,
 				90379B5A178DCB90009FFE46 /* Foundation.framework */,
 				90379B5C178DCB90009FFE46 /* CoreGraphics.framework */,
@@ -151,6 +182,8 @@
 				90795F32178DD52600A356EE /* Supporting Files */,
 				90795F30178DD50F00A356EE /* StoryBoards */,
 				90795F31178DD50F00A356EE /* View Controllers */,
+				904D2F9D178F6DFC00F998C8 /* Example Subclass */,
+				904D2F78178DFD9E00F998C8 /* Libs */,
 				90795F2F178DD4C400A356EE /* images */,
 			);
 			path = "ABOverlays Demo";
@@ -161,13 +194,50 @@
 			children = (
 				90795F38178DD6A100A356EE /* ABOverlay.h */,
 				90795F39178DD6A100A356EE /* ABOverlay.m */,
+				904D2F71178DEA9A00F998C8 /* dependencies */,
 			);
 			path = ABOverlays;
+			sourceTree = "<group>";
+		};
+		904D2F71178DEA9A00F998C8 /* dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				904D2F72178DEC5A00F998C8 /* ABAnimations.h */,
+				904D2F73178DEC5A00F998C8 /* ABAnimations.m */,
+				904D2F74178DEC5A00F998C8 /* ABAppearingView.h */,
+				904D2F75178DEC5A00F998C8 /* ABAppearingView.m */,
+			);
+			path = dependencies;
+			sourceTree = "<group>";
+		};
+		904D2F78178DFD9E00F998C8 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				904D2F79178DFDBC00F998C8 /* YIInnerShadowLayer.h */,
+				904D2F7A178DFDBC00F998C8 /* YIInnerShadowLayer.m */,
+				904D2F7B178DFDBC00F998C8 /* YIInnerShadowView.h */,
+				904D2F7C178DFDBC00F998C8 /* YIInnerShadowView.m */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		904D2F9D178F6DFC00F998C8 /* Example Subclass */ = {
+			isa = PBXGroup;
+			children = (
+				904D2F9E178F6E4600F998C8 /* ToastView.h */,
+				904D2F9F178F6E4600F998C8 /* ToastView.m */,
+				90771C0617948C65003E650C /* Drawer.h */,
+				90771C0717948C65003E650C /* Drawer.m */,
+			);
+			path = "Example Subclass";
 			sourceTree = "<group>";
 		};
 		90795F2F178DD4C400A356EE /* images */ = {
 			isa = PBXGroup;
 			children = (
+				90771C091794916D003E650C /* happysun.png */,
+				90FAABF4179054B500399E39 /* can.png */,
+				904D2FA1178F6FA900F998C8 /* Alert-Icon.png */,
 				90379B9A178DCCC2009FFE46 /* Default-568h@2x.png */,
 				90379B9B178DCCC2009FFE46 /* Default.png */,
 				90379B9C178DCCC2009FFE46 /* Default@2x.png */,
@@ -188,6 +258,8 @@
 			children = (
 				90795F33178DD5B300A356EE /* ABViewController.h */,
 				90795F34178DD5B300A356EE /* ABViewController.m */,
+				904D2FA3178F723B00F998C8 /* MyModalViewController.h */,
+				904D2FA4178F723B00F998C8 /* MyModalViewController.m */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -282,6 +354,9 @@
 				90379BA7178DCCC2009FFE46 /* Default@2x.png in Resources */,
 				90795F37178DD5BC00A356EE /* MainStoryboard.storyboard in Resources */,
 				904D2F6F178DE13700F998C8 /* README.md in Resources */,
+				904D2FA2178F6FA900F998C8 /* Alert-Icon.png in Resources */,
+				90FAABF5179054B500399E39 /* can.png in Resources */,
+				90771C0A1794916D003E650C /* happysun.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +425,13 @@
 				90379BAA178DCCC2009FFE46 /* main.m in Sources */,
 				90795F35178DD5B300A356EE /* ABViewController.m in Sources */,
 				90795F3A178DD6A100A356EE /* ABOverlay.m in Sources */,
+				904D2F76178DEC5A00F998C8 /* ABAnimations.m in Sources */,
+				904D2F77178DEC5A00F998C8 /* ABAppearingView.m in Sources */,
+				904D2F7D178DFDBC00F998C8 /* YIInnerShadowLayer.m in Sources */,
+				904D2F7E178DFDBC00F998C8 /* YIInnerShadowView.m in Sources */,
+				904D2FA0178F6E4600F998C8 /* ToastView.m in Sources */,
+				904D2FA5178F723B00F998C8 /* MyModalViewController.m in Sources */,
+				90771C0817948C65003E650C /* Drawer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
