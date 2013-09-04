@@ -17,6 +17,7 @@
 @property (nonatomic, readonly) UIView *modalBackgroundView;
 
 @property (nonatomic, strong) UIViewController *storedViewController;
+@property (nonatomic, assign) UIWindowLevel windowLevel;
 
 @end
 

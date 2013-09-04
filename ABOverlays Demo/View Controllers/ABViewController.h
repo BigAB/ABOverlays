@@ -10,7 +10,7 @@
 #import "ToastView.h"
 #import "Drawer.h"
 
-@interface ABViewController : UIViewController
+@interface ABViewController : UIViewController <UITextFieldDelegate, UIGestureRecognizerDelegate>
 
 @end
 

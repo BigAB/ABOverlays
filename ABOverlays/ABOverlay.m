@@ -27,6 +27,8 @@
 
 @implementation ABOverlay {}
 
+@synthesize modalBackgroundColor = _modalBackgroundColor;
+
 #pragma mark - Property Accessors
 - (UIWindow *)mainWindow
 {
@@ -43,6 +45,7 @@
 {
     if (!_overlayWindow) {
         _overlayWindow = [GhostWindow new];
+        _overlayWindow.windowLevel = self.windowLevel;
         UIViewController *vc = [UIViewController new];
         
         _overlayWindow.rootViewController = vc;
@@ -77,7 +80,7 @@
     return _modalBackgroundColor;
 }
 
-- (void)setmodalBackgroundColor:(UIColor *)modalBackgroundColor
+- (void)setModalBackgroundColor:(UIColor *)modalBackgroundColor
 {
     if (_modalBackgroundColor != modalBackgroundColor) {
         _modalBackgroundColor = modalBackgroundColor;
@@ -112,7 +115,12 @@
     [self adjustFrameForOverlayWindow];
     
     [self.modalBackgroundView addSubview:self];
+    
+    // Get the original window so we can make it key again for the keyboard or other interaction.
+    // TODO: What if this is modal and background interaction should not be allowed.
+    UIWindow *originalWindow = [UIApplication sharedApplication].keyWindow;
     [self.overlayWindow makeKeyAndVisible];
+    [originalWindow makeKeyWindow];
     
     [super appear];
 }
@@ -152,25 +160,9 @@
 
 - (void)viewDidDisappearWithAnimation:(AnimationType)animationType
 {
-    UIWindow *windowToReturnTo = [self getWindowToReturnTo];
-    [windowToReturnTo makeKeyAndVisible];
     self.mainWindow = nil;
     self.overlayWindow = nil;
     [self overlayDidDisappear];
-}
-
-- (UIWindow *)getWindowToReturnTo
-{
-    UIWindow *window;
-    
-    __block GhostWindow *myWindow = self.overlayWindow;
-    NSArray *ghostWindows = [[UIApplication sharedApplication].windows filteredArrayUsingPredicate:[NSPredicate predicateWithBlock:^BOOL(id windowObj, NSDictionary *bindings) {
-        return ([windowObj class] == [GhostWindow class] && windowObj != myWindow);
-    }]];
-    
-    window = [ghostWindows lastObject];
-    
-    return window ?: self.mainWindow;
 }
 
 - (void)overlayWillAppear {} // for subclassing
@@ -229,7 +221,6 @@
     self = [super init];
     if (self) {
         self.backgroundColor = [UIColor clearColor];
-        self.windowLevel = UIWindowLevelNormal;
     }
     return self;
 }
