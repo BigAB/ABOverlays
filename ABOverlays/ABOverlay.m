@@ -47,6 +47,7 @@
         _overlayWindow = [GhostWindow new];
         _overlayWindow.windowLevel = self.windowLevel;
         UIViewController *vc = [UIViewController new];
+        vc.wantsFullScreenLayout = self.adjustForFullScreen;
         
         _overlayWindow.rootViewController = vc;
         if (self.modal)  {

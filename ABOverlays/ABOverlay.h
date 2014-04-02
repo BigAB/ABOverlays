@@ -18,6 +18,7 @@
 
 @property (nonatomic, strong) UIViewController *storedViewController;
 @property (nonatomic, assign) UIWindowLevel windowLevel;
+@property (nonatomic, assign) BOOL adjustForFullScreen;
 
 @end
 
