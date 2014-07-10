@@ -79,9 +79,9 @@
     [self setNeedsLayout];
 }
 
-- (void)setShadowOpacity:(CGFloat)shadowOpacity
+- (void)setShadowOpacity:(float)shadowOpacity
 {
-    [super setShadowOpacity:shadowOpacity];
+    [super setShadowOpacity:(float)shadowOpacity];
     [self setNeedsLayout];
 }
 

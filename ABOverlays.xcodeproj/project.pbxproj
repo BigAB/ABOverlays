@@ -11,7 +11,6 @@
 		90379B59178DCB90009FFE46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B58178DCB90009FFE46 /* UIKit.framework */; };
 		90379B5B178DCB90009FFE46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B5A178DCB90009FFE46 /* Foundation.framework */; };
 		90379B5D178DCB90009FFE46 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B5C178DCB90009FFE46 /* CoreGraphics.framework */; };
-		90379B7D178DCB90009FFE46 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B7C178DCB90009FFE46 /* SenTestingKit.framework */; };
 		90379B7E178DCB90009FFE46 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B58178DCB90009FFE46 /* UIKit.framework */; };
 		90379B7F178DCB90009FFE46 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90379B5A178DCB90009FFE46 /* Foundation.framework */; };
 		90379B87178DCB90009FFE46 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 90379B85178DCB90009FFE46 /* InfoPlist.strings */; };
@@ -54,8 +53,7 @@
 		90379B58178DCB90009FFE46 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		90379B5A178DCB90009FFE46 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		90379B5C178DCB90009FFE46 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		90379B7B178DCB90009FFE46 /* ABOverlaysTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABOverlaysTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		90379B7C178DCB90009FFE46 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		90379B7B178DCB90009FFE46 /* ABOverlaysTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ABOverlaysTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90379B84178DCB90009FFE46 /* ABOverlaysTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ABOverlaysTests-Info.plist"; sourceTree = "<group>"; };
 		90379B86178DCB90009FFE46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		90379B89178DCB90009FFE46 /* ABOverlaysTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ABOverlaysTests.m; sourceTree = "<group>"; };
@@ -111,7 +109,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90379B7D178DCB90009FFE46 /* SenTestingKit.framework in Frameworks */,
 				90379B7E178DCB90009FFE46 /* UIKit.framework in Frameworks */,
 				90379B7F178DCB90009FFE46 /* Foundation.framework in Frameworks */,
 				1A2FDEFE126144C28E298729 /* libPods-ABOverlaysTests.a in Frameworks */,
@@ -138,7 +135,7 @@
 			isa = PBXGroup;
 			children = (
 				90379B55178DCB90009FFE46 /* ABOverlays.app */,
-				90379B7B178DCB90009FFE46 /* ABOverlaysTests.octest */,
+				90379B7B178DCB90009FFE46 /* ABOverlaysTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,7 +147,6 @@
 				90379B58178DCB90009FFE46 /* UIKit.framework */,
 				90379B5A178DCB90009FFE46 /* Foundation.framework */,
 				90379B5C178DCB90009FFE46 /* CoreGraphics.framework */,
-				90379B7C178DCB90009FFE46 /* SenTestingKit.framework */,
 				A01D79F8F6484D899F90ECCB /* libPods-ABOverlaysTests.a */,
 			);
 			name = Frameworks;
@@ -313,8 +309,8 @@
 			);
 			name = ABOverlaysTests;
 			productName = ABOverlaysTests;
-			productReference = 90379B7B178DCB90009FFE46 /* ABOverlaysTests.octest */;
-			productType = "com.apple.product-type.bundle";
+			productReference = 90379B7B178DCB90009FFE46 /* ABOverlaysTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
@@ -323,6 +319,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = AB;
+				LastTestingUpgradeCheck = 0510;
 				LastUpgradeCheck = 0460;
 				ORGANIZATIONNAME = "Adam Barrett";
 			};
@@ -559,13 +556,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ABOverlays Demo/ABOverlays-Prefix.pch";
 				INFOPLIST_FILE = "ABOverlaysTests/ABOverlaysTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Debug;
 		};
@@ -577,13 +574,13 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
 					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+					"$(inherited)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ABOverlays Demo/ABOverlays-Prefix.pch";
 				INFOPLIST_FILE = "ABOverlaysTests/ABOverlaysTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
-				WRAPPER_EXTENSION = octest;
 			};
 			name = Release;
 		};

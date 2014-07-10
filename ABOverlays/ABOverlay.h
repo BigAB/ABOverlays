@@ -13,12 +13,13 @@
 @interface ABOverlay : ABAppearingView
 
 @property (nonatomic, assign) BOOL modal;
+@property (nonatomic, assign) UIWindowLevel windowLevel;
 @property (nonatomic, strong) UIColor *modalBackgroundColor;
 @property (nonatomic, readonly) UIView *modalBackgroundView;
+@property (nonatomic, assign) BOOL closeOnModalTap;
+@property (nonatomic, assign) BOOL wantsFullScreenLayout;
 
 @property (nonatomic, strong) UIViewController *storedViewController;
-@property (nonatomic, assign) UIWindowLevel windowLevel;
-@property (nonatomic, assign) BOOL adjustForFullScreen;
 
 @end
 
@@ -31,8 +32,8 @@
 // ---------------------------------------------------
 #pragma mark - UIView+FindViewController
 @interface UIView (FindUIViewController)
-- (UIViewController *) firstAvailableUIViewController;
-- (id) traverseResponderChainForUIViewController;
+- (UIViewController *)firstAvailableUIViewController;
+- (id)traverseResponderChainForUIViewController;
 @end
 
 // ---------------------------------------------------
@@ -44,4 +45,8 @@
 // ---------------------------------------------------
 @interface GhostWindow : UIWindow
 @property (nonatomic, assign) BOOL touchable;
+@end
+
+
+@interface ABBaseViewController : UIViewController
 @end
